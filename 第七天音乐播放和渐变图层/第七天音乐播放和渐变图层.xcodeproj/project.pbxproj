@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4B47701E55840E0098A5C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B476F1E55840E0098A5C6 /* AppDelegate.swift */; };
+		CD4B47721E55840E0098A5C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B47711E55840E0098A5C6 /* ViewController.swift */; };
+		CD4B47751E55840E0098A5C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B47731E55840E0098A5C6 /* Main.storyboard */; };
+		CD4B47771E55840E0098A5C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B47761E55840E0098A5C6 /* Assets.xcassets */; };
+		CD4B477A1E55840E0098A5C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B47781E55840E0098A5C6 /* LaunchScreen.storyboard */; };
+		CD4B47821E5584220098A5C6 /* Pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B47811E5584220098A5C6 /* Pch.swift */; };
+		CD4B47841E5588B60098A5C6 /* Ecstasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD4B47831E5588B60098A5C6 /* Ecstasy.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD4B476C1E55840E0098A5C6 /* 第七天音乐播放和渐变图层.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第七天音乐播放和渐变图层.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B476F1E55840E0098A5C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD4B47711E55840E0098A5C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4B47741E55840E0098A5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4B47761E55840E0098A5C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4B47791E55840E0098A5C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4B477B1E55840E0098A5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4B47811E5584220098A5C6 /* Pch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pch.swift; sourceTree = "<group>"; };
+		CD4B47831E5588B60098A5C6 /* Ecstasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ecstasy.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4B47691E55840E0098A5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4B47631E55840E0098A5C6 = {
+			isa = PBXGroup;
+			children = (
+				CD4B476E1E55840E0098A5C6 /* 第七天音乐播放和渐变图层 */,
+				CD4B476D1E55840E0098A5C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4B476D1E55840E0098A5C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B476C1E55840E0098A5C6 /* 第七天音乐播放和渐变图层.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4B476E1E55840E0098A5C6 /* 第七天音乐播放和渐变图层 */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B476F1E55840E0098A5C6 /* AppDelegate.swift */,
+				CD4B47711E55840E0098A5C6 /* ViewController.swift */,
+				CD4B47811E5584220098A5C6 /* Pch.swift */,
+				CD4B47831E5588B60098A5C6 /* Ecstasy.mp3 */,
+				CD4B47731E55840E0098A5C6 /* Main.storyboard */,
+				CD4B47761E55840E0098A5C6 /* Assets.xcassets */,
+				CD4B47781E55840E0098A5C6 /* LaunchScreen.storyboard */,
+				CD4B477B1E55840E0098A5C6 /* Info.plist */,
+			);
+			path = "第七天音乐播放和渐变图层";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4B476B1E55840E0098A5C6 /* 第七天音乐播放和渐变图层 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4B477E1E55840E0098A5C6 /* Build configuration list for PBXNativeTarget "第七天音乐播放和渐变图层" */;
+			buildPhases = (
+				CD4B47681E55840E0098A5C6 /* Sources */,
+				CD4B47691E55840E0098A5C6 /* Frameworks */,
+				CD4B476A1E55840E0098A5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第七天音乐播放和渐变图层";
+			productName = "第七天音乐播放和渐变图层";
+			productReference = CD4B476C1E55840E0098A5C6 /* 第七天音乐播放和渐变图层.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4B47641E55840E0098A5C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "霍驹";
+				TargetAttributes = {
+					CD4B476B1E55840E0098A5C6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD4B47671E55840E0098A5C6 /* Build configuration list for PBXProject "第七天音乐播放和渐变图层" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4B47631E55840E0098A5C6;
+			productRefGroup = CD4B476D1E55840E0098A5C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4B476B1E55840E0098A5C6 /* 第七天音乐播放和渐变图层 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4B476A1E55840E0098A5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B477A1E55840E0098A5C6 /* LaunchScreen.storyboard in Resources */,
+				CD4B47841E5588B60098A5C6 /* Ecstasy.mp3 in Resources */,
+				CD4B47771E55840E0098A5C6 /* Assets.xcassets in Resources */,
+				CD4B47751E55840E0098A5C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4B47681E55840E0098A5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B47821E5584220098A5C6 /* Pch.swift in Sources */,
+				CD4B47721E55840E0098A5C6 /* ViewController.swift in Sources */,
+				CD4B47701E55840E0098A5C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD4B47731E55840E0098A5C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B47741E55840E0098A5C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4B47781E55840E0098A5C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B47791E55840E0098A5C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4B477C1E55840E0098A5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD4B477D1E55840E0098A5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4B477F1E55840E0098A5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第七天音乐播放和渐变图层/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneStepBeyond.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD4B47801E55840E0098A5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第七天音乐播放和渐变图层/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneStepBeyond.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4B47671E55840E0098A5C6 /* Build configuration list for PBXProject "第七天音乐播放和渐变图层" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B477C1E55840E0098A5C6 /* Debug */,
+				CD4B477D1E55840E0098A5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4B477E1E55840E0098A5C6 /* Build configuration list for PBXNativeTarget "第七天音乐播放和渐变图层" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B477F1E55840E0098A5C6 /* Debug */,
+				CD4B47801E55840E0098A5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4B47641E55840E0098A5C6 /* Project object */;
+}

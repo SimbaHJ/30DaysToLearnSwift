@@ -20,3 +20,4 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第八天图片缩放/第八天图片缩放.gif)
 ###第九天  制作视频背景 及视频的压缩截取 
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第九天视频背景/videobg.gif)
+->>>>>>>>>>>>持续更新中

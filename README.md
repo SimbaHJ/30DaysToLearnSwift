@@ -18,3 +18,5 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第七天音乐播放和渐变图层/第七天音乐播放和渐变图层.gif)
 ###第八天  ScrollView 图片缩放
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第八天图片缩放/第八天图片缩放.gif)
+###第九天  制作视频背景 及视频的压缩截取 
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第九天视频背景/videobg.gif)

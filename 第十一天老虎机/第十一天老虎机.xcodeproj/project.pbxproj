@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE4B32A1E5E78F900BAFC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE4B3291E5E78F900BAFC80 /* AppDelegate.swift */; };
+		CDE4B32C1E5E78F900BAFC80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE4B32B1E5E78F900BAFC80 /* ViewController.swift */; };
+		CDE4B32F1E5E78F900BAFC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE4B32D1E5E78F900BAFC80 /* Main.storyboard */; };
+		CDE4B3311E5E78F900BAFC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE4B3301E5E78F900BAFC80 /* Assets.xcassets */; };
+		CDE4B3341E5E78F900BAFC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE4B3321E5E78F900BAFC80 /* LaunchScreen.storyboard */; };
+		CDE4B33C1E5E794A00BAFC80 /* Pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE4B33B1E5E794A00BAFC80 /* Pch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDE4B3261E5E78F900BAFC80 /* 第十一天老虎机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第十一天老虎机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE4B3291E5E78F900BAFC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE4B32B1E5E78F900BAFC80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE4B32E1E5E78F900BAFC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE4B3301E5E78F900BAFC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE4B3331E5E78F900BAFC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE4B3351E5E78F900BAFC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE4B33B1E5E794A00BAFC80 /* Pch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE4B3231E5E78F900BAFC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE4B31D1E5E78F900BAFC80 = {
+			isa = PBXGroup;
+			children = (
+				CDE4B3281E5E78F900BAFC80 /* 第十一天老虎机 */,
+				CDE4B3271E5E78F900BAFC80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE4B3271E5E78F900BAFC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE4B3261E5E78F900BAFC80 /* 第十一天老虎机.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE4B3281E5E78F900BAFC80 /* 第十一天老虎机 */ = {
+			isa = PBXGroup;
+			children = (
+				CDE4B3291E5E78F900BAFC80 /* AppDelegate.swift */,
+				CDE4B32B1E5E78F900BAFC80 /* ViewController.swift */,
+				CDE4B33B1E5E794A00BAFC80 /* Pch.swift */,
+				CDE4B32D1E5E78F900BAFC80 /* Main.storyboard */,
+				CDE4B3301E5E78F900BAFC80 /* Assets.xcassets */,
+				CDE4B3321E5E78F900BAFC80 /* LaunchScreen.storyboard */,
+				CDE4B3351E5E78F900BAFC80 /* Info.plist */,
+			);
+			path = "第十一天老虎机";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE4B3251E5E78F900BAFC80 /* 第十一天老虎机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE4B3381E5E78F900BAFC80 /* Build configuration list for PBXNativeTarget "第十一天老虎机" */;
+			buildPhases = (
+				CDE4B3221E5E78F900BAFC80 /* Sources */,
+				CDE4B3231E5E78F900BAFC80 /* Frameworks */,
+				CDE4B3241E5E78F900BAFC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第十一天老虎机";
+			productName = "第十一天老虎机";
+			productReference = CDE4B3261E5E78F900BAFC80 /* 第十一天老虎机.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE4B31E1E5E78F900BAFC80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "霍驹";
+				TargetAttributes = {
+					CDE4B3251E5E78F900BAFC80 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDE4B3211E5E78F900BAFC80 /* Build configuration list for PBXProject "第十一天老虎机" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE4B31D1E5E78F900BAFC80;
+			productRefGroup = CDE4B3271E5E78F900BAFC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE4B3251E5E78F900BAFC80 /* 第十一天老虎机 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE4B3241E5E78F900BAFC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE4B3341E5E78F900BAFC80 /* LaunchScreen.storyboard in Resources */,
+				CDE4B3311E5E78F900BAFC80 /* Assets.xcassets in Resources */,
+				CDE4B32F1E5E78F900BAFC80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE4B3221E5E78F900BAFC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE4B33C1E5E794A00BAFC80 /* Pch.swift in Sources */,
+				CDE4B32C1E5E78F900BAFC80 /* ViewController.swift in Sources */,
+				CDE4B32A1E5E78F900BAFC80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDE4B32D1E5E78F900BAFC80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE4B32E1E5E78F900BAFC80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE4B3321E5E78F900BAFC80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE4B3331E5E78F900BAFC80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE4B3361E5E78F900BAFC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE4B3371E5E78F900BAFC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE4B3391E5E78F900BAFC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第十一天老虎机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneStepBeyond.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDE4B33A1E5E78F900BAFC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第十一天老虎机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneStepBeyond.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE4B3211E5E78F900BAFC80 /* Build configuration list for PBXProject "第十一天老虎机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE4B3361E5E78F900BAFC80 /* Debug */,
+				CDE4B3371E5E78F900BAFC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE4B3381E5E78F900BAFC80 /* Build configuration list for PBXNativeTarget "第十一天老虎机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE4B3391E5E78F900BAFC80 /* Debug */,
+				CDE4B33A1E5E78F900BAFC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE4B31E1E5E78F900BAFC80 /* Project object */;
+}

@@ -22,4 +22,7 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第九天视频背景/videobg.gif)
 ###第十天  渐变及动画table
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十天渐变及动画table/第十天渐变及动画table.gif)
+###第十一天  pickView的简单实用
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十一天老虎机/第十一天老虎机.gif)
+
 ->>>>>>>>>>>>持续更新中

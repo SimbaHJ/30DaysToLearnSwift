@@ -24,5 +24,6 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十天渐变及动画table/第十天渐变及动画table.gif)
 ###第十一天  pickView的简单实用
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十一天老虎机/第十天老虎机.gif)
-
+###第十二天  污点启动动画
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十二动画污点/第十二天动画污点.gif)
 ->>>>>>>>>>>>持续更新中

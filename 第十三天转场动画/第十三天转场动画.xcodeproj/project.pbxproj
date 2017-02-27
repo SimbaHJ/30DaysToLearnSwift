@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1E82751E6415DD00F4B651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E82741E6415DD00F4B651 /* AppDelegate.swift */; };
+		CD1E82771E6415DD00F4B651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E82761E6415DD00F4B651 /* ViewController.swift */; };
+		CD1E827A1E6415DD00F4B651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1E82781E6415DD00F4B651 /* Main.storyboard */; };
+		CD1E827C1E6415DD00F4B651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1E827B1E6415DD00F4B651 /* Assets.xcassets */; };
+		CD1E827F1E6415DD00F4B651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1E827D1E6415DD00F4B651 /* LaunchScreen.storyboard */; };
+		CD1E82871E6418C800F4B651 /* Pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E82861E6418C800F4B651 /* Pch.swift */; };
+		CD1E82891E641B4F00F4B651 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E82881E641B4F00F4B651 /* MenuTransitionManager.swift */; };
+		CD1E828B1E641C9700F4B651 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E828A1E641C9700F4B651 /* MenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD1E82711E6415DD00F4B651 /* 第十三天转场动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第十三天转场动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1E82741E6415DD00F4B651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD1E82761E6415DD00F4B651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD1E82791E6415DD00F4B651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1E827B1E6415DD00F4B651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1E827E1E6415DD00F4B651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1E82801E6415DD00F4B651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1E82861E6418C800F4B651 /* Pch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pch.swift; sourceTree = "<group>"; };
+		CD1E82881E641B4F00F4B651 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
+		CD1E828A1E641C9700F4B651 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1E826E1E6415DD00F4B651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1E82681E6415DD00F4B651 = {
+			isa = PBXGroup;
+			children = (
+				CD1E82731E6415DD00F4B651 /* 第十三天转场动画 */,
+				CD1E82721E6415DD00F4B651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1E82721E6415DD00F4B651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E82711E6415DD00F4B651 /* 第十三天转场动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1E82731E6415DD00F4B651 /* 第十三天转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				CD1E82741E6415DD00F4B651 /* AppDelegate.swift */,
+				CD1E82761E6415DD00F4B651 /* ViewController.swift */,
+				CD1E82881E641B4F00F4B651 /* MenuTransitionManager.swift */,
+				CD1E828A1E641C9700F4B651 /* MenuViewController.swift */,
+				CD1E82861E6418C800F4B651 /* Pch.swift */,
+				CD1E82781E6415DD00F4B651 /* Main.storyboard */,
+				CD1E827B1E6415DD00F4B651 /* Assets.xcassets */,
+				CD1E827D1E6415DD00F4B651 /* LaunchScreen.storyboard */,
+				CD1E82801E6415DD00F4B651 /* Info.plist */,
+			);
+			path = "第十三天转场动画";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1E82701E6415DD00F4B651 /* 第十三天转场动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1E82831E6415DD00F4B651 /* Build configuration list for PBXNativeTarget "第十三天转场动画" */;
+			buildPhases = (
+				CD1E826D1E6415DD00F4B651 /* Sources */,
+				CD1E826E1E6415DD00F4B651 /* Frameworks */,
+				CD1E826F1E6415DD00F4B651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第十三天转场动画";
+			productName = "第十三天转场动画";
+			productReference = CD1E82711E6415DD00F4B651 /* 第十三天转场动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1E82691E6415DD00F4B651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "霍驹";
+				TargetAttributes = {
+					CD1E82701E6415DD00F4B651 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD1E826C1E6415DD00F4B651 /* Build configuration list for PBXProject "第十三天转场动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1E82681E6415DD00F4B651;
+			productRefGroup = CD1E82721E6415DD00F4B651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1E82701E6415DD00F4B651 /* 第十三天转场动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1E826F1E6415DD00F4B651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1E827F1E6415DD00F4B651 /* LaunchScreen.storyboard in Resources */,
+				CD1E827C1E6415DD00F4B651 /* Assets.xcassets in Resources */,
+				CD1E827A1E6415DD00F4B651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1E826D1E6415DD00F4B651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1E82871E6418C800F4B651 /* Pch.swift in Sources */,
+				CD1E828B1E641C9700F4B651 /* MenuViewController.swift in Sources */,
+				CD1E82891E641B4F00F4B651 /* MenuTransitionManager.swift in Sources */,
+				CD1E82771E6415DD00F4B651 /* ViewController.swift in Sources */,
+				CD1E82751E6415DD00F4B651 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD1E82781E6415DD00F4B651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1E82791E6415DD00F4B651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1E827D1E6415DD00F4B651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1E827E1E6415DD00F4B651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1E82811E6415DD00F4B651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD1E82821E6415DD00F4B651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1E82841E6415DD00F4B651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第十三天转场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneStepBeyond.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD1E82851E6415DD00F4B651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第十三天转场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneStepBeyond.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1E826C1E6415DD00F4B651 /* Build configuration list for PBXProject "第十三天转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1E82811E6415DD00F4B651 /* Debug */,
+				CD1E82821E6415DD00F4B651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1E82831E6415DD00F4B651 /* Build configuration list for PBXNativeTarget "第十三天转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1E82841E6415DD00F4B651 /* Debug */,
+				CD1E82851E6415DD00F4B651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1E82691E6415DD00F4B651 /* Project object */;
+}

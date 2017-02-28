@@ -28,5 +28,8 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十二动画污点/第十二天动画污点.gif)
 ###第十三天  转场动画
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十三天转场动画/第十三天转场动画.gif)
+###第十四天  字数限制
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十四天字数限制/第十四天字数限制.gif)
+
 
 ->>>>>>>>>>>>持续更新中

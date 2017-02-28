@@ -10,8 +10,8 @@ import UIKit
 
 class MenuTransitionManager: NSObject ,
 UIViewControllerAnimatedTransitioning ,UIViewControllerTransitioningDelegate  {
-
-     var presenting = true
+    
+    var presenting = true
     
     
     
@@ -38,13 +38,13 @@ UIViewControllerAnimatedTransitioning ,UIViewControllerTransitioningDelegate  {
         
         UIView.animate(withDuration: duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: [], animations: {
             if (self.presenting){
-            self.onSetController(menuViewController: menuVc)
+                self.onSetController(menuViewController: menuVc)
             }else{
-            self.offSetController(menuViewController: menuVc)
+                self.offSetController(menuViewController: menuVc)
             }
         }, completion: { finished in
             transitionContext.completeTransition(true)
-            UIApplication.shared.keyWindow!.addSubview(vcs.toVc.view)
+            //            UIApplication.shared.keyWindow!.addSubview(vcs.toVc.view)
         })
         
     }
@@ -72,7 +72,7 @@ UIViewControllerAnimatedTransitioning ,UIViewControllerTransitioningDelegate  {
         menuViewController.chatLabel.transform = self.offstage(offNumber: -bottomOffSet)
         
         menuViewController.PhotoButton.transform = self.offstage(offNumber: topOffSet)
-        menuViewController.PhotoButton.transform = self.offstage(offNumber: topOffSet)
+        menuViewController.photoLabel.transform = self.offstage(offNumber: topOffSet)
         
         menuViewController.linkButton.transform = self.offstage(offNumber: midOffSet)
         menuViewController.linkLabel.transform = self.offstage(offNumber: midOffSet)
@@ -82,13 +82,13 @@ UIViewControllerAnimatedTransitioning ,UIViewControllerTransitioningDelegate  {
         
         
         
-    
+        
     }
     
     func onSetController(menuViewController : MenuViewController)
     {
         menuViewController.view.alpha = 1
-    
+        
         menuViewController.textButton.transform = .identity
         menuViewController.textLabel.transform = .identity
         menuViewController.quoteButton.transform = .identity
@@ -97,13 +97,13 @@ UIViewControllerAnimatedTransitioning ,UIViewControllerTransitioningDelegate  {
         menuViewController.chatLabel.transform = .identity
         
         menuViewController.PhotoButton.transform = .identity
-        menuViewController.PhotoButton.transform = .identity
+        menuViewController.photoLabel.transform = .identity
         menuViewController.linkButton.transform = .identity
         menuViewController.linkLabel.transform = .identity
         
         menuViewController.audioButton.transform = .identity
         menuViewController.audioLabel.transform = .identity
-    
+        
     }
     
     
@@ -112,7 +112,7 @@ UIViewControllerAnimatedTransitioning ,UIViewControllerTransitioningDelegate  {
     
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-       return 1
+        return 1
     }
     
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {

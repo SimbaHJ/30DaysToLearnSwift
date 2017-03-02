@@ -30,6 +30,8 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十三天转场动画/第十三天转场动画.gif)
 ###第十四天  字数限制
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十四天字数限制/第十四天字数限制.gif)
+###第十五天  Collection选择动画
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十五天/第十五天.gif)
 
 
 ->>>>>>>>>>>>持续更新中

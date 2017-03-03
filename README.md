@@ -1,6 +1,6 @@
 # 30DaysToLearnSwift
 
-###对前辈30天学Swift的3.0翻版  通过纯代码进行重写 目前尚未全部完成  我会持续更新的  如果有什么问题请联系QQ:545119722
+###对前辈30天学Swift的3.0翻版  通过纯代码进行重写 目前尚未全部完成  我会持续更新的  如果有什么问题请进QQ:32523827
 ###[前辈原项目地址](https://github.com/SimbaHJ/30DaysofSwift)
 ###第一天  秒表
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第一天秒表/Simple Stop Watch.gif)

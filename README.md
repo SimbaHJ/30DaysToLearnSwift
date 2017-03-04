@@ -1,6 +1,9 @@
 # 30DaysToLearnSwift
 
 ###对前辈30天学Swift的3.0翻版  通过纯代码进行重写 目前尚未全部完成  我会持续更新的  如果有什么问题请进QQ:32523827
+
+###在项目中的工程文件名称都是用的中文,这点是不符合命名规范的,希望大家不要像我这样.我最初这样写的目的是希望降低新手的门槛,但是后来想了一下,还是应该用英文的.但是木已成舟,希望见谅.
+
 ###[前辈原项目地址](https://github.com/SimbaHJ/30DaysofSwift)
 ###第一天  秒表
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第一天秒表/Simple Stop Watch.gif)

@@ -41,6 +41,7 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十六天UITableViewRowAction/第十六天UITableViewRowAction.gif)
 ###第十七天   3DTouch
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十七天3DTouch/第十七天3DTouch.gif)
-
+###第十八天   CoreData
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十八天CoreData/第十八天CoreData.gif)
 
 ->>>>>>>>>>>>持续更新中

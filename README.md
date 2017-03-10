@@ -41,5 +41,7 @@
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十七天3DTouch/第十七天3DTouch.gif)
 ###第十八天   CoreData
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十八天CoreData/第十八天CoreData.gif)
+###第十九天  自定义侧滑一
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第十九天自定义侧滑一/第十九天自定义侧滑一.gif)
 
 ->>>>>>>>>>>>持续更新中

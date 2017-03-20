@@ -4,7 +4,7 @@
 ### 在项目中的工程文件名称都是用的中文,这点是不符合命名规范的,希望大家不要像我这样.我最初这样写的目的是希望降低新手的门槛,但是后来想了一下,还是应该用英文的.但是木已成舟,希望见谅.
 
 ### 第一天  秒表
-![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第一天秒表/Simple Stop Watch.gif)
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第一天秒表/SimpleStopWatch.gif)
 ### 第二天  简单表
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第二天简单表/Customfont.gif)
 ### 第三天  自定义Cell
@@ -14,7 +14,7 @@
 ### 第五天  定位
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第五天定位/第五天定位.gif)
 ### 第六天  表的刷新
-![] ( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第六天表的刷新/第六天表的刷新.gif)
+![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第六天表的刷新/第六天表的刷新.gif)
 ### 第七天  音乐播放和渐变图层
 ![]( https://github.com/SimbaHJ/30DaysToLearnSwift/raw/master/第七天音乐播放和渐变图层/第七天音乐播放和渐变图层.gif)
 ### 第八天  ScrollView 图片缩放

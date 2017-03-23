@@ -42,8 +42,12 @@ struct lineModel {
 import UIKit
 
 class ViewController: UIViewController {
-
-    var bgView : UIView!
+    
+    lazy var bgView : UIView! = {
+        let view = UIView.init(frame: CGRect.init(x: 0, y: 0, width: WIDTH, height: HEIGHT))
+        view.backgroundColor = UIColor.white
+        return view
+    }()
     
     var pointNum : NSInteger = 15
     
@@ -53,18 +57,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setBgView()
+        //        setBgView()
+        self.view.addSubview(bgView)
         initPrama()
         draw()
         timer = Timer.scheduledTimer(timeInterval: 0.0, target: self, selector: #selector(run), userInfo: nil, repeats: true)
-
+        
     }
     
     func run(){
-//        bgView.layer.removeFromSuperlayer()
+        //        bgView.layer.removeFromSuperlayer()
         bgView.removeFromSuperview()
         bgView = nil
-        setBgView()
+        self.view.addSubview(bgView)
+        //        setBgView()
         for i in 0...pointNum-1 {
             var model = circleArr[i] as! circleModel
             model.orignX += model.offsetX
@@ -137,7 +143,7 @@ class ViewController: UIViewController {
         
         shape.path = path.cgPath
         bgView?.layer.addSublayer(shape)
-    
+        
     }
     
     //绘制圆
@@ -149,16 +155,16 @@ class ViewController: UIViewController {
         shape.strokeColor = UIColor.init(colorLiteralRed: 100/255.0, green: 100/255.0, blue: 100/255.0, alpha: 0.4).cgColor
         shape.path = path.cgPath
         self.bgView?.layer.addSublayer(shape)
-    
         
-    
+        
+        
     }
     //绘制线
     
     //创建并存储神经元
     func initPrama(){
         for _ in 0...pointNum-1 {
-          let circlemodel = circleModel.init(orignX: randmBetween(small: 0, lager: WIDTH), orignY: randmBetween(small: 0, lager: HEIGHT), width: randmBetween(small: 1, lager: 8), offsetX: randmBetween(small: -10, lager: 10)/20, offsetY: randmBetween(small: -10, lager: 10)/20)
+            let circlemodel = circleModel.init(orignX: randmBetween(small: 0, lager: WIDTH), orignY: randmBetween(small: 0, lager: HEIGHT), width: randmBetween(small: 1, lager: 8), offsetX: randmBetween(small: -10, lager: 10)/20, offsetY: randmBetween(small: -10, lager: 10)/20)
             circleArr.add(circlemodel)
         }
     }
@@ -180,9 +186,9 @@ class ViewController: UIViewController {
     func setBgView(){
         
         bgView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: WIDTH, height: HEIGHT))
-        bgView?.backgroundColor = UIColor.orange
+        bgView?.backgroundColor = UIColor.white
         self.view.addSubview(bgView!)
-                
+        
     }
     
     
@@ -191,7 +197,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
